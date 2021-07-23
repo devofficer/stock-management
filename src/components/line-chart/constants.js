@@ -1,0 +1,1 @@
+export const AGGREATE_DATA_URL = '/sample-data/aggregated_stock_exchange.csv';
