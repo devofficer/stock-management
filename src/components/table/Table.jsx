@@ -17,7 +17,7 @@ const Table = () => {
                     title="Stock Table"
                     data={data}
                     columns={columns}
-                    options={{ search: true, paging: false, filtering: true, exportButton: true }}
+                    options={{ search: true, paging: false, filtering: true, exportButton: true, maxBodyHeight: 500 }}
                 />
             ) : 'Loading data...'}
 

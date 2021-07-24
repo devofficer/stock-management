@@ -39,6 +39,7 @@ const LineChart = () => {
             text: "Stock Chart"
         },
         theme: "light2",
+        exportEnabled: true,
         charts: [{
             axisX: {
                 crosshair: {
